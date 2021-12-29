@@ -2,8 +2,6 @@ import streamlit as st
 import pytesseract 
 from PIL import Image
 
-
-
 pytesseract.pytesseract.tesseract_cmd = '/app/.apt/usr/bin/tesseract'
 st.title("OPTICAL CHARACTER RECOGNITION (OCR)")
 st.text("Upload an image to extract text!")
